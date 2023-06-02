@@ -18,7 +18,7 @@ Tada masyvo *data* elementai yra priskiriami naujam masyvui *newData*.
 Naujas elementas (value) priskiriamas į masyvo (data) galą, o vektoriaus dydis (size) padidinamas vienetu.  
 3. Sukurta *pop_back* funkcija, kuri pradeda nuo patikros, ar masyvo dydis *size* yra didesnis nei nulis. Tikrinama yra bent vienas elementas, kurį galima pašalinti, jei sąlyga tenkinama, tada yra pašalinamas paskutinis elementas ir sumažinamas masyvo dydis.
 4. Sukurta papildoma *insert* funkcija.  
-Patikrinama, ar talpa yra lygi nuliui. Jei taip, tai reiškia, kad masyvas buvo tuščias ir priskiriama talpa 1. Kitu atveju, talpa padauginama iš 2.  
+Patikrinama, ar talpa yra lygi nuliui. Jei taip, tai reiškia, kad masyvas buvo tuščias ir priskiriama talpa 1. Kitu atveju, talpa padauginama 2.  
 Sukuriamas naujas masyvas *newData* su didesne talpa *capacity*.
 Perkopijuojami esami elementai iš seno masyvo *data* į naują masyvą *newData*. Kopijuojami visi elementai iki nurodyto indekso *index*.  
 Į naują masyvą (newData) įterpiamas naujas elementas (value) nurodytoje pozicijoje (index).  
